@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Simple package for registering hotkeys",
   "main": "dist/",
+  "types": "dist/",
   "scripts": {
     "build": "tsc",
     "minor": "pnpm build && pnpm version minor && pnpm publish",
