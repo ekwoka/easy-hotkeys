@@ -1,0 +1,17 @@
+{
+  "name": "@ekwoka/hotkeys",
+  "version": "0.1.1",
+  "description": "Simple package for registering hotkeys",
+  "main": "dist/",
+  "scripts": {
+    "build": "tsc",
+    "minor": "pnpm build && pnpm version minor && pnpm publish",
+    "patch": "pnpm build && pnpm version patch && pnpm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
+}

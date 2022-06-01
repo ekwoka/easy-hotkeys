@@ -1,0 +1,17 @@
+{
+  // Change this to match your project
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    // Generate d.ts files
+    "declaration": true,
+    // Types should go into this directory.
+    // Removing this would place the .d.ts files
+    // next to the .js files
+    "outDir": "dist",
+    "declarationMap": true,
+    /* Language and Environment */
+    "target": "es2019" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "es2020" /* Specify what module code is generated. */,
+    "moduleResolution": "node"
+  }
+}
