@@ -1,5 +1,7 @@
 # Hotkeys
 
+[<img src="https://badgen.net/npm/v/@ekwoka/hotkeys">](https://www.npmjs.com/package/@ekwoka/hotkeys) <img src="https://badgen.net/npm/types/@ekwoka/hotkeys?icon=typescript"> <img src="https://badgen.net/npm/dt/@ekwoka/hotkeys" >
+
 This is a very simple package that allows you to register hotkeys to run functions easily!
 
 ## Installation
