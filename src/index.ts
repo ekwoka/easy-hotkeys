@@ -5,7 +5,7 @@ export type KeyMap = {
   [key: KeyCombo]: () => void;
 };
 
-type KeyCombo = string;
+export type KeyCombo = string;
 
 export const hotkeys = (keyMap: KeyMap): (() => void) => {
   const keyActions = Object.entries(keyMap).map(([keys, action]) => {
