@@ -1,6 +1,6 @@
 {
   "name": "@ekwoka/hotkeys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple package for registering hotkeys",
   "author": {
     "name": "Eric Kwoka",
