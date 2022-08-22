@@ -6,8 +6,10 @@ export type PropChecker = {
   key: string;
 };
 
-export const checkProps = (e: KeyboardEvent, keyCombo: PropChecker): boolean => {
-  return Object.entries(keyCombo).every(([key, value]) => {
+export type PropEntries = [keyof PropChecker, PropChecker[keyof PropChecker]][];
+
+export const checkProps = (e: KeyboardEvent, keyCombo: PropEntries): boolean => {
+  return keyCombo.every(([key, value]) => {
     return e[key as keyof KeyboardEvent] === value;
   });
 };

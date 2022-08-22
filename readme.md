@@ -1,6 +1,10 @@
 # Hotkeys
 
-[<img src="https://badgen.net/npm/v/@ekwoka/hotkeys">](https://www.npmjs.com/package/@ekwoka/hotkeys) <img src="https://badgen.net/npm/types/@ekwoka/hotkeys?icon=typescript"> <img src="https://badgen.net/npm/dt/@ekwoka/hotkeys" >
+[<img src="https://img.shields.io/npm/v/@ekwoka/preact-global-state?style=for-the-badge">](https://www.npmjs.com/package/@ekwoka/preact-global-state)
+<img src="https://img.shields.io/npm/types/@ekwoka/preact-global-state?label=%20&amp;logo=typescript&amp;logoColor=white&amp;style=for-the-badge">
+<img src="https://img.shields.io/npm/dt/@ekwoka/preact-global-state?style=for-the-badge" >
+[<img src="https://img.shields.io/bundlephobia/minzip/@ekwoka/preact-global-state?style=for-the-badge">](https://bundlephobia.com/package/@ekwoka/preact-global-state)
+
 
 This is a very simple package that allows you to register hotkeys to run functions easily!
 

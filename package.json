@@ -2,10 +2,22 @@
   "name": "@ekwoka/hotkeys",
   "version": "0.1.4",
   "description": "Simple package for registering hotkeys",
+  "author": {
+    "name": "Eric Kwoka",
+    "email": "ninjatheory@gmail.com",
+    "url": "https://thekwoka.net/"
+  },
+  "repository": "github:ekwoka/easy-hotkeys",
   "main": "dist/",
   "types": "dist/",
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
+  "sideEffects": false,
   "scripts": {
     "build": "tsc",
+    "major": "pnpm build && pnpm version major && pnpm publish",
     "minor": "pnpm build && pnpm version minor && pnpm publish",
     "patch": "pnpm build && pnpm version patch && pnpm publish"
   },
@@ -14,11 +26,11 @@
     "keybinds",
     "key handlers",
     "typescript",
-    "react"
+    "react",
+    "preact"
   ],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.4"
   }
 }
