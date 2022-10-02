@@ -24,7 +24,7 @@ hotkeys({
 });
 ```
 
-The string accepts `ctrl` `alt` `cmd` and `shift` as modifiers, or any combination thereof.
+The string accepts `ctrl`, `alt`, `cmd`, and `shift` as modifiers, or any combination thereof.
 
 The function also returns a function to unregister the hotkeys.
 
